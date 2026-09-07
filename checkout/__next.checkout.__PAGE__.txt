@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[22016,["../_next/static/chunks/3fntmmi971322.js","../_next/static/chunks/06h48tc4jq_vz.js","../_next/static/chunks/2mic6wrqy6f62.js"],""]
+3:I[48303,["../_next/static/chunks/3fntmmi971322.js","../_next/static/chunks/06h48tc4jq_vz.js","../_next/static/chunks/2mic6wrqy6f62.js"],"SiteHeader"]
+4:"$Sreact.suspense"
+5:I[10449,["../_next/static/chunks/3fntmmi971322.js","../_next/static/chunks/06h48tc4jq_vz.js","../_next/static/chunks/2mic6wrqy6f62.js"],"CheckoutClient"]
+6:I[97367,["../_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+a:I[97367,["../_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+b:I[97367,["../_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+c:I[27201,["../_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+e:I[39756,["../_next/static/chunks/3fntmmi971322.js"],"default"]
+f:I[37457,["../_next/static/chunks/3fntmmi971322.js"],"default"]
+9:X
+11:X
+11:C
+0:{"buildId":"xrkBDGm4BBIFL6dWdaJ9g","data":[{"rsc":["$","$1","c",{"children":[[["$","div",null,{"className":"bg-ink px-3 py-2 text-center text-[11px] leading-4 font-medium tracking-wide text-paper sm:text-xs","children":["First ",20," Sprint seats"," ",["$","span",null,{"className":"text-gold","children":"₹3,999"}]," · ","then ","₹4,999"," · ",["$","span",null,{"className":"text-saffron","children":[13," intro seats left on this page"]}]," · ",["$","$L2",null,{"href":"/checkout?sku=sprint-intro","className":"underline underline-offset-2","children":"Claim yours"}]]}],["$","$L3",null,{"tone":"minimal"}],["$","main",null,{"className":"flex-1 pb-28 md:pb-8","children":["$","div",null,{"className":"mx-auto max-w-lg px-4 py-12","children":["$","$4",null,{"fallback":["$","p",null,{"className":"text-muted-foreground","children":"Loading demo checkout…"}],"children":["$","$L5",null,{}]}]}]}],null,"$undefined"],[["$","script","script-0",{"src":"../_next/static/chunks/06h48tc4jq_vz.js","async":true}],["$","script","script-1",{"src":"../_next/static/chunks/2mic6wrqy6f62.js","async":true}]],["$","$L6",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":"$@8","staleTime":"$9","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$La",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Checkout (demo) · Placement Sprint"}],["$","meta","1",{"name":"description","content":"Mock Razorpay / Stripe checkout for Placement Sprint."}],["$","meta","2",{"property":"og:title","content":"Your placement season starts in 14 days — not “someday.”"}],["$","meta","3",{"property":"og:description","content":"CSE/BCA/BBA sem 6–8 — resume, LinkedIn, 2 mocks, applications checklist. First 20 at ₹3999. DM SPRINT."}],["$","meta","4",{"property":"og:locale","content":"en_IN"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Your placement season starts in 14 days — not “someday.”"}],["$","meta","8",{"name":"twitter:description","content":"CSE/BCA/BBA sem 6–8 — resume, LinkedIn, 2 mocks, applications checklist. First 20 at ₹3999. DM SPRINT."}],["$","link","9",{"rel":"icon","href":"../icon.svg?icon.0ybwyihqflh2i.svg","sizes":"any","type":"image/svg+xml"}],["$","$Lc","10",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@d","staleTime":"$9","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Le",null,{"parallelRouterKey":"children","template":["$","$Lf",null,{}]}]]}],"isPartial":"$@10","staleTime":"$9","varyParams":"$11"}],"isUpgradeableISRFallback":false,"a":"$@12","rootVaryParams":null,"needsRuntimeRequest":"$@13"}
+7:null
+13:true
+9:300
+9:C
+12:0
+d:"$undefined"
+10:"$undefined"
+8:"$undefined"

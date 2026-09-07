@@ -1,0 +1,35 @@
+name: Publish live-demo
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Force-push out/ to live-demo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          WORK=$(mktemp -d)
+          cp -a out/. "$WORK/"
+          cd "$WORK"
+          git init
+          git checkout -b live-demo
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Static export of Placement Sprint funnel"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/AgmAtk03/placement-sprint.git"
+          git push -f origin live-demo

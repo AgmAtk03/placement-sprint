@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Sprint+ · Placement Sprint</title>
+<meta name="description" content="14-day Placement Sprint for India campus CSE/BCA/BBA — demo funnel only."/>
+<style>
+:root{--bg:#0b1220;--card:#121a2b;--line:#243047;--txt:#e8eefc;--muted:#9db0d0;--accent:#5b8cff;--good:#3dd68c;--warn:#ffb020}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--txt);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{max-width:720px;margin:0 auto;padding:20px 16px 64px}
+.badge{display:inline-flex;gap:8px;align-items:center;background:#17233a;border:1px solid var(--line);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
+h1{font-size:clamp(1.6rem,5vw,2.2rem);line-height:1.15;margin:14px 0 10px}
+h2{font-size:1.25rem;margin:0 0 8px}p{color:var(--muted);line-height:1.55;margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0}
+.list{margin:0;padding:0;list-style:none}.list li{padding:10px 0;border-bottom:1px solid var(--line);color:var(--txt);font-size:15px}
+.list li:last-child{border:0}.list li::before{content:"\2713 ";color:var(--good)}
+.price{font-size:1.6rem;font-weight:700;margin:8px 0}.strike{opacity:.55;text-decoration:line-through;font-size:1rem;margin-left:8px}
+.btn{display:block;width:100%;text-align:center;background:var(--accent);color:#fff;font-weight:700;padding:14px 16px;border-radius:12px;border:0;margin:10px 0;font-size:16px}
+.btn.secondary{background:transparent;border:1px solid var(--line);color:var(--txt)}
+.btn.good{background:#1f8f5f}.note{font-size:12px;color:var(--muted);margin-top:8px}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 18px}.nav a{font-size:12px;color:var(--muted);border:1px solid var(--line);padding:6px 10px;border-radius:999px}
+.demo{border:1px dashed #3a4d72;background:#0f1728;padding:10px 12px;border-radius:10px;font-size:12px;color:#b7c7e6;margin-top:12px}
+.grid{display:grid;gap:10px}.grid2{grid-template-columns:1fr 1fr}@media(max-width:560px){.grid2{grid-template-columns:1fr}}
+.foot{margin-top:28px;font-size:12px;color:#7f92b3;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="nav">
+<a href="index.html">Landing</a>
+<a href="starter.html">₹499 Kit</a>
+<a href="oto.html">Sprint OTO</a>
+<a href="sprint-plus.html">Sprint+</a>
+<a href="thanks.html">Thanks</a>
+</div>
+<span class="badge">OTO · continuity</span>
+<h1>Add Sprint+ — mocks that feel like the real panel.</h1>
+<p>Same 14-day Sprint, plus deeper mock rounds + application review so you’re not doing this alone at 1am.</p>
+<div class="card">
+<p><strong>Sprint (₹4999)</strong> includes: Resume + LinkedIn + 2 mocks + checklist</p>
+<h2>Sprint+ adds</h2>
+<ul class="list">
+<li>Extra mock depth (HR + tech/behaviour by stream)</li>
+<li>Application review pass (subject lines, resume↔JD)</li>
+<li>Priority doubt window during the 14 days</li>
+<li>Faster feedback turnaround</li>
+</ul>
+<div class="price">₹7999</div>
+<button class="btn good" onclick="payDemo('Sprint+','7999')">Upgrade to Sprint+ — ₹7999</button>
+<a class="btn secondary" href="thanks.html?sku=Sprint">No thanks — keep Sprint</a>
+</div>
+<p class="demo">“Skip if you’re confident going solo.” — OTO script (demo)</p>
+<p class="foot">Demo funnel · fake data only · Razorpay test / WhatsApp intake placeholders<br/>Placement Sprint · AgmBizz</p>
+</div>
+<script>
+function payDemo(sku,amount){
+  alert('DEMO only — '+sku+' · ₹'+amount+'\nRazorpay test mode placeholder. No live charge.');
+  location.href='thanks.html?sku='+encodeURIComponent(sku);
+}
+function waDemo(text){
+  const msg=encodeURIComponent(text||'Hi — I want Placement Sprint details (demo)');
+  window.open('https://wa.me/919999999999?text='+msg,'_blank');
+}
+</script>
+</body></html>

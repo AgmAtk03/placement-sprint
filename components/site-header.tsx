@@ -16,6 +16,7 @@ import { contact } from "@/lib/site";
 
 const links = [
   { href: "/", label: "Offer" },
+  { href: "/course", label: "14-day course" },
   { href: "/sprint", label: "14-day Sprint" },
   { href: "/starter", label: "₹499 Starter Kit" },
   { href: "/funnel", label: "How the funnel works" },

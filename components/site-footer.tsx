@@ -25,6 +25,11 @@ export function SiteFooter() {
               </Link>
             </li>
             <li>
+              <Link href="/course" className="hover:underline">
+                14-day course
+              </Link>
+            </li>
+            <li>
               <Link href="/starter" className="hover:underline">
                 ₹499 Starter Kit
               </Link>

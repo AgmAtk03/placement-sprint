@@ -47,6 +47,9 @@ export default function HomePage() {
               <Cta href="/checkout?sku=sprint-intro">
                 Hard CTA · claim intro Sprint
               </Cta>
+              <Cta href="/course" variant="outline">
+                See the 14-day course
+              </Cta>
               <Cta href="/starter" variant="outline">
                 Soft CTA · ₹499 Starter Kit
               </Cta>
@@ -140,6 +143,9 @@ export default function HomePage() {
             </li>
           ))}
         </ol>
+        <Cta href="/course" variant="outline" className="mt-6">
+          Open Days 1–14
+        </Cta>
       </Section>
 
       <Section

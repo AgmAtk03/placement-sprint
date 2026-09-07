@@ -90,6 +90,7 @@ export default function FunnelPage() {
         <div className="mt-10 rounded-2xl bg-secondary/60 p-5 font-mono text-xs leading-6 overflow-x-auto">
           {`Traffic
   → /                 squeeze landing
+  → /course           14-day outlines (product, not a sell step)
   → /starter          ₹499 tripwire + bump
   → /checkout?sku=starter
   → /upsell           Sprint OTO (₹3999 intro / ₹4999)
@@ -101,6 +102,9 @@ Cold ads skip to /sprint`}
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <Cta href="/">Open landing</Cta>
+          <Cta href="/course" variant="outline">
+            14-day course
+          </Cta>
           <Cta href="/starter" variant="outline">
             Start at ₹499
           </Cta>

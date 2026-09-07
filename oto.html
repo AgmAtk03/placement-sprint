@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Sprint OTO · Placement Sprint</title>
+<meta name="description" content="14-day Placement Sprint for India campus CSE/BCA/BBA — demo funnel only."/>
+<style>
+:root{--bg:#0b1220;--card:#121a2b;--line:#243047;--txt:#e8eefc;--muted:#9db0d0;--accent:#5b8cff;--good:#3dd68c;--warn:#ffb020}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--txt);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{max-width:720px;margin:0 auto;padding:20px 16px 64px}
+.badge{display:inline-flex;gap:8px;align-items:center;background:#17233a;border:1px solid var(--line);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
+h1{font-size:clamp(1.6rem,5vw,2.2rem);line-height:1.15;margin:14px 0 10px}
+h2{font-size:1.25rem;margin:0 0 8px}p{color:var(--muted);line-height:1.55;margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0}
+.list{margin:0;padding:0;list-style:none}.list li{padding:10px 0;border-bottom:1px solid var(--line);color:var(--txt);font-size:15px}
+.list li:last-child{border:0}.list li::before{content:"\2713 ";color:var(--good)}
+.price{font-size:1.6rem;font-weight:700;margin:8px 0}.strike{opacity:.55;text-decoration:line-through;font-size:1rem;margin-left:8px}
+.btn{display:block;width:100%;text-align:center;background:var(--accent);color:#fff;font-weight:700;padding:14px 16px;border-radius:12px;border:0;margin:10px 0;font-size:16px}
+.btn.secondary{background:transparent;border:1px solid var(--line);color:var(--txt)}
+.btn.good{background:#1f8f5f}.note{font-size:12px;color:var(--muted);margin-top:8px}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 18px}.nav a{font-size:12px;color:var(--muted);border:1px solid var(--line);padding:6px 10px;border-radius:999px}
+.demo{border:1px dashed #3a4d72;background:#0f1728;padding:10px 12px;border-radius:10px;font-size:12px;color:#b7c7e6;margin-top:12px}
+.grid{display:grid;gap:10px}.grid2{grid-template-columns:1fr 1fr}@media(max-width:560px){.grid2{grid-template-columns:1fr}}
+.foot{margin-top:28px;font-size:12px;color:#7f92b3;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="nav">
+<a href="index.html">Landing</a>
+<a href="starter.html">₹499 Kit</a>
+<a href="oto.html">Sprint OTO</a>
+<a href="sprint-plus.html">Sprint+</a>
+<a href="thanks.html">Thanks</a>
+</div>
+<span class="badge">Core offer · after ₹499 kit</span>
+<h1>You grabbed the kit. Lock the 14-day Sprint.</h1>
+<p>Most campus folks who get stuck… get stuck on mocks and JD-matching. The Sprint is the system: resume · LinkedIn · applications · 2 mocks.</p>
+<div class="grid grid2">
+<div class="card">
+<h2>Placement Sprint</h2>
+<div class="price">₹3999<span class="strike">₹4999</span></div>
+<p>First 20 intro seats. Resume + LinkedIn + 2 mocks + checklist.</p>
+<button class="btn good" onclick="payDemo('Placement Sprint Intro','3999')">Lock Sprint ₹3999</button>
+</div>
+<div class="card">
+<h2>Later price</h2>
+<div class="price">₹4999</div>
+<p>Same Sprint after intro seats fill.</p>
+<button class="btn secondary" onclick="payDemo('Placement Sprint','4999')">Buy at ₹4999</button>
+</div>
+</div>
+<a class="btn" href="sprint-plus.html">One-time offer: add Sprint+ →</a>
+<p class="note">Demo checkout only — Razorpay test placeholder.</p>
+<p class="foot">Demo funnel · fake data only · Razorpay test / WhatsApp intake placeholders<br/>Placement Sprint · AgmBizz</p>
+</div>
+<script>
+function payDemo(sku,amount){
+  alert('DEMO only — '+sku+' · ₹'+amount+'\nRazorpay test mode placeholder. No live charge.');
+  location.href='thanks.html?sku='+encodeURIComponent(sku);
+}
+function waDemo(text){
+  const msg=encodeURIComponent(text||'Hi — I want Placement Sprint details (demo)');
+  window.open('https://wa.me/919999999999?text='+msg,'_blank');
+}
+</script>
+</body></html>
